@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/index.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/index.js" }
+  ],
+  "env": {
+    "MONGO_URI": "mongodb+srv://fisid555:yKj1L5tz8y0hSQx8@cluster0.xpq0k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+  }
+}
