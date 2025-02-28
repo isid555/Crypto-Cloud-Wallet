@@ -1,11 +1,16 @@
 import axios from "axios";
 import {Common} from "./Common.jsx";
 import {API_URL} from "./api_url.js";
+import {AuthGuard} from "./AuthGuard.jsx";
+import {useState} from "react";
+import {Loading} from "./Loading.jsx";
 
 export function ShowPrivateKey(){
 
+    const [loading,setLoading] = useState(false);
 
    async function fetchKey(){
+       setLoading(true)
        const user = document.getElementById("username").value;
        const password = document.getElementById("password").value;
 
@@ -19,6 +24,8 @@ export function ShowPrivateKey(){
 
        } catch (error) {
            console.log(error);
+       }finally {
+           setLoading(false)
        }
     }
 
@@ -28,6 +35,8 @@ export function ShowPrivateKey(){
     return (
         <>
             <Common/>
+            <AuthGuard/>
+            {loading && <Loading/>}
         <div className="min-h-screen flex items-center justify-center bg-gray-900">
 
             <div className="w-full max-w-md p-6 bg-gray-800 rounded-2xl shadow-2xl border border-gray-600">

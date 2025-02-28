@@ -9,6 +9,8 @@ export function Common() {
             <Link to="/signin" className="hover:text-green-400 transition">Signin</Link>
             <Link to="/transactions" className="hover:text-green-400 transition">Transaction Page</Link>
             <Link to="/show_privateKey" className="hover:text-green-400 transition">Show Private Key</Link>
+            <Link to={"/show_balance"} className={"hover:text-green-400 transition"}>Show Balance</Link>
+            <Link to={"/airdrop"} className={"hover:text-green-400 transition"}>AirDrop</Link>
         </nav>
     );
 }
