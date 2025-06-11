@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { clusterApiUrl, Connection, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
-import { Common } from "./Common";
+import { Common } from "./Common.jsx";
 import {Loading} from "./Loading.jsx";
 import {AuthGuard} from "./AuthGuard.jsx";
 

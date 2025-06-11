@@ -1,7 +1,7 @@
 import {clusterApiUrl, Connection, LAMPORTS_PER_SOL, PublicKey, SystemProgram, Transaction} from "@solana/web3.js";
 import axios from "axios";
 import {Common} from "./Common.jsx";
-import {API_URL} from "./api_url.js";
+import {API_URL} from "../api_url.js";
 import {useEffect, useState} from "react";
 import {Loading} from "./Loading.jsx";
 import {AuthGuard} from "./AuthGuard.jsx";

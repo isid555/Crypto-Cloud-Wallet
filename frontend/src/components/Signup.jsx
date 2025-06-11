@@ -4,7 +4,7 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Common } from "./Common.jsx";
-import { API_URL } from "./api_url.js";
+import { API_URL } from "../api_url.js";
 import { Link } from "react-router-dom";
 
 export function Signup() {

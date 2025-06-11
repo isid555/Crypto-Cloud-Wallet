@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f44a5d46-0afb-41e5-9c7f-f2be1e25d43d" name="Changes" comment="Deployed commit-1">
-      <change afterPath="$PROJECT_DIR$/frontend/src/AirDrop.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/AuthGuard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Loading.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/ShowUserBalance.jsx" afterDir="false" />
+    <list default="true" id="f44a5d46-0afb-41e5-9c7f-f2be1e25d43d" name="Changes" comment="Deployed commit-2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Common.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Common.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/ShowPrivateKey.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/ShowPrivateKey.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Signin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Signin.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Signup.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Transaction.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Transaction.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/AirDrop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AirDrop.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/AuthGuard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AuthGuard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Common.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Common.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Loading.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Loading.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/ShowPrivateKey.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ShowPrivateKey.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/ShowUserBalance.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ShowUserBalance.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Signin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Signin.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Signup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Transaction.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Transaction.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,9 @@
     &quot;accountId&quot;: &quot;67e9f3ae-0824-4c5e-a077-4f3f0d33e442&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -73,6 +75,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\100xWeb3\Week 14 BonkBot\frontend\src\components" />
       <recent name="S:\100xWeb3\Week 14 BonkBot\backend\api" />
       <recent name="S:\100xWeb3\Week 14 BonkBot\frontend\src" />
     </key>
@@ -108,6 +111,8 @@
       <updated>1740675868180</updated>
       <workItem from="1740675869421" duration="1812000" />
       <workItem from="1740718321892" duration="22323000" />
+      <workItem from="1740751469015" duration="914000" />
+      <workItem from="1741198789851" duration="3503000" />
     </task>
     <task id="LOCAL-00001" summary="Deployed commit-1">
       <option name="closed" value="true" />
@@ -117,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740727289277</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Deployed commit-2">
+      <option name="closed" value="true" />
+      <created>1740751486301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740751486301</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +138,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Deployed commit-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deployed commit-1" />
+    <MESSAGE value="Deployed commit-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deployed commit-2" />
   </component>
 </project>

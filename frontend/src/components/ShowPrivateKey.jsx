@@ -1,6 +1,6 @@
 import axios from "axios";
 import {Common} from "./Common.jsx";
-import {API_URL} from "./api_url.js";
+import {API_URL} from "../api_url.js";
 import {AuthGuard} from "./AuthGuard.jsx";
 import {useState} from "react";
 import {Loading} from "./Loading.jsx";

@@ -1,6 +1,6 @@
 import axios from "axios";
 import {Common} from "./Common.jsx";
-import {API_URL} from "./api_url.js";
+import {API_URL} from "../api_url.js";
 import {Link} from "react-router-dom";
 import {useState} from "react";
 export function Signin() {
